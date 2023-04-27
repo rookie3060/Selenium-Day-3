@@ -1,0 +1,21 @@
+{
+  "id": "9197b6ac-a0e4-4733-ada0-4ef90af02f96",
+  "version": "2.0",
+  "name": "Day 3",
+  "url": "",
+  "tests": [{
+    "id": "e21715b7-d527-48ff-b05f-4c34a298bb7f",
+    "name": "Test Day 3",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "35def23d-62f2-4134-a1dd-910c775c1c5f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e21715b7-d527-48ff-b05f-4c34a298bb7f"]
+  }],
+  "urls": [],
+  "plugins": []
+}

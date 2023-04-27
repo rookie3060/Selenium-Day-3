@@ -1,0 +1,82 @@
+{
+  "id": "ece4ddc7-f65c-4f50-9310-73bee9efaf65",
+  "version": "2.0",
+  "name": "Task 1",
+  "url": "https://demo.opencart.com",
+  "tests": [{
+    "id": "3811f6cd-3a45-46ec-b94f-9b416858fc0b",
+    "name": "Task 1",
+    "commands": [{
+      "id": "d8b6dabb-2e36-4b5f-8084-853582efbc3e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b71fa866-4641-4174-af1e-3fe7651cda57",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "866x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "824f9eb0-a7fa-4e8b-8938-ed83b83ba945",
+      "comment": "",
+      "command": "click",
+      "target": "css=#carousel-banner-0 > .carousel-control-next > .fa",
+      "targets": [
+        ["css=#carousel-banner-0 > .carousel-control-next > .fa", "css:finder"],
+        ["xpath=//div[@id='carousel-banner-0']/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe837c81-c869-43eb-9221-b6b222d06147",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .img-fluid",
+      "targets": [
+        ["css=.col-12 > .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='MacBookAir']", "xpath:img"],
+        ["xpath=//div[@id='carousel-banner-0']/div[2]/div[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "106ecd93-1c92-4408-88f9-c85723469ce6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .img-fluid",
+      "targets": [
+        ["css=.col-12 > .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='MacBookAir']", "xpath:img"],
+        ["xpath=//div[@id='carousel-banner-0']/div[2]/div[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11b3fb0a-5eba-4f92-b874-bf69c095a222",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .img-fluid",
+      "targets": [
+        ["css=.col-12 > .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='MacBookAir']", "xpath:img"],
+        ["xpath=//div[@id='carousel-banner-0']/div[2]/div[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6d36dc04-4aaa-4676-92b4-a4ea31ffdd1f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3811f6cd-3a45-46ec-b94f-9b416858fc0b"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
